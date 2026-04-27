@@ -8,6 +8,7 @@ public class DynamicPage extends BasePage {
     public DynamicPage(WebDriver driver) {
         super(driver);
     }
+    
 
     private By startBtn = By.xpath("//button[text()='Start']");
     private By finishText = By.id("finish");

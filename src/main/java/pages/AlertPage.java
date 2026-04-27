@@ -7,6 +7,7 @@ public class AlertPage extends BasePage {
 
     public AlertPage(WebDriver driver) {
         super(driver);
+        
     }
 
     private By jsAlert = By.xpath("//button[text()='Click for JS Alert']");

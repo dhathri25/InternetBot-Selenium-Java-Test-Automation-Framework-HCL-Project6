@@ -16,6 +16,7 @@ public class ScreenshotUtil {
 
             File dest = new File(path);
             dest.getParentFile().mkdirs();
+            
 
             FileUtils.copyFile(src, dest);
 

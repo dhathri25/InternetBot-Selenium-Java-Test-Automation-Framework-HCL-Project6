@@ -7,6 +7,7 @@ public class CheckboxPage extends BasePage {
 
     public CheckboxPage(WebDriver driver) {
         super(driver);
+        
     }
 
     private By checkbox1 = By.xpath("(//input[@type='checkbox'])[1]");

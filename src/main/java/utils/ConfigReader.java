@@ -11,6 +11,7 @@ public class ConfigReader {
         try {
             InputStream input = ConfigReader.class
                     .getClassLoader()
+                    
                     .getResourceAsStream("config.properties");
 
             properties = new Properties();

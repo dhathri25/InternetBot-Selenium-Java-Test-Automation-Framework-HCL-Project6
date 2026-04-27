@@ -7,6 +7,7 @@ public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
         super(driver);
+        
     }
 
     private By username = By.id("username");

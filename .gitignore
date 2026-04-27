@@ -5,3 +5,6 @@ test-output/
 .idea/
 .settings/
 .project
+reports/
+screenshots/
+.classpath

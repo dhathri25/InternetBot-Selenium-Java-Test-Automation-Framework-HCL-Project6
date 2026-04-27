@@ -10,6 +10,7 @@ public class ExtentManager {
     public static ExtentReports getInstance() {
 
         if (extent == null) {
+        	
 
             String path = System.getProperty("user.dir") + "/reports/ExtentReport.html";
 

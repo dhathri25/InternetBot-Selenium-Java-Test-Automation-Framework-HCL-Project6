@@ -7,6 +7,7 @@ public class UploadPage extends BasePage {
 
     public UploadPage(WebDriver driver) {
         super(driver);
+        
     }
 
     private By uploadInput = By.id("file-upload");

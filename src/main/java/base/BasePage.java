@@ -12,6 +12,7 @@ public class BasePage {
     protected WebDriverWait wait;
 
     public BasePage(WebDriver driver) {
+    	
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(ConfigReader.getTimeout()));
     }
